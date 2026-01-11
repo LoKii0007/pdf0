@@ -50,6 +50,47 @@ export default function Navbar() {
               Get Started
             </Link>
             <a 
+              href="https://bags.fm/82P9MvicWYr2R1yeYZLJrbPZB236uMeMBKJ6bLgpBAGS" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-gradient-to-r from-emerald-500 via-green-500 to-lime-500 text-white text-sm font-black rounded-full flex items-center gap-2 relative overflow-hidden group animate-pulse hover:animate-none transition-all duration-300 hover:scale-110 active:scale-95 shadow-[0_0_20px_rgba(34,197,94,0.6)] hover:shadow-[0_0_30px_rgba(34,197,94,0.9)]"
+              style={{
+                background: 'linear-gradient(90deg, #10b981, #22c55e, #84cc16, #22c55e, #10b981)',
+                backgroundSize: '200% 100%',
+                animation: 'gradient-shift 3s ease infinite, pulse-glow 2s ease-in-out infinite',
+              }}
+            >
+              {/* Animated gradient overlay - shimmer effect */}
+              <div 
+                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer"
+              />
+              
+              {/* Pulsing glow rings */}
+              <div className="absolute inset-0 rounded-full border-2 border-emerald-400/50 opacity-0 group-hover:opacity-100 animate-ping" />
+              <div className="absolute inset-0 rounded-full border border-lime-300/50 opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.5s' }} />
+              
+              {/* Sparkle effects */}
+              <div className="absolute top-1 left-4 w-1 h-1 bg-white rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.2s' }} />
+              <div className="absolute bottom-1 right-6 w-1 h-1 bg-lime-200 rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.4s' }} />
+              <div className="absolute top-2 right-3 w-1.5 h-1.5 bg-emerald-200 rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.6s' }} />
+              
+              {/* Text with glow effect */}
+              <span className="relative z-10 flex items-center gap-1.5 drop-shadow-lg">
+                <span className="text-base font-black group-hover:scale-125 transition-transform duration-300" style={{ textShadow: '0 0 10px rgba(255,255,255,0.8)' }}>$</span>
+                <span className="group-hover:scale-110 transition-transform duration-300 font-black tracking-wide" style={{ textShadow: '0 0 10px rgba(255,255,255,0.8)' }}>PDF0</span>
+              </span>
+              
+              {/* Animated background gradient */}
+              <div 
+                className="absolute inset-0 rounded-full opacity-50"
+                style={{
+                  background: 'linear-gradient(45deg, #10b981, #22c55e, #84cc16, #22c55e, #10b981)',
+                  backgroundSize: '300% 300%',
+                  animation: 'gradient-rotate 4s ease infinite',
+                }}
+              />
+            </a>
+            <a 
               href="https://github.com/kanavtwt/pdf0" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -123,6 +164,47 @@ export default function Navbar() {
               >
                 Get Started
               </Link>
+              <a 
+                href="https://bags.fm/82P9MvicWYr2R1yeYZLJrbPZB236uMeMBKJ6bLgpBAGS" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-gradient-to-r from-emerald-500 via-green-500 to-lime-500 text-white text-sm font-black rounded-full flex items-center justify-center gap-2 relative overflow-hidden group animate-pulse hover:animate-none transition-all duration-300 hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(34,197,94,0.6)] hover:shadow-[0_0_30px_rgba(34,197,94,0.9)]"
+                style={{
+                  background: 'linear-gradient(90deg, #10b981, #22c55e, #84cc16, #22c55e, #10b981)',
+                  backgroundSize: '200% 100%',
+                  animation: 'gradient-shift 3s ease infinite, pulse-glow 2s ease-in-out infinite',
+                }}
+              >
+                {/* Animated gradient overlay - shimmer effect */}
+                <div 
+                  className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 animate-shimmer"
+                />
+                
+                {/* Pulsing glow rings */}
+                <div className="absolute inset-0 rounded-full border-2 border-emerald-400/50 opacity-0 group-hover:opacity-100 animate-ping" />
+                <div className="absolute inset-0 rounded-full border border-lime-300/50 opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.5s' }} />
+                
+                {/* Sparkle effects */}
+                <div className="absolute top-1 left-4 w-1 h-1 bg-white rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.2s' }} />
+                <div className="absolute bottom-1 right-6 w-1 h-1 bg-lime-200 rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.4s' }} />
+                <div className="absolute top-2 right-3 w-1.5 h-1.5 bg-emerald-200 rounded-full opacity-0 group-hover:opacity-100 animate-ping" style={{ animationDelay: '0.6s' }} />
+                
+                {/* Text with glow effect */}
+                <span className="relative z-10 flex items-center gap-1.5 drop-shadow-lg">
+                  <span className="text-base font-black group-hover:scale-125 transition-transform duration-300" style={{ textShadow: '0 0 10px rgba(255,255,255,0.8)' }}>$</span>
+                  <span className="group-hover:scale-110 transition-transform duration-300 font-black tracking-wide" style={{ textShadow: '0 0 10px rgba(255,255,255,0.8)' }}>PDF0</span>
+                </span>
+                
+                {/* Animated background gradient */}
+                <div 
+                  className="absolute inset-0 rounded-full opacity-50"
+                  style={{
+                    background: 'linear-gradient(45deg, #10b981, #22c55e, #84cc16, #22c55e, #10b981)',
+                    backgroundSize: '300% 300%',
+                    animation: 'gradient-rotate 4s ease infinite',
+                  }}
+                />
+              </a>
               <a 
                 href="https://github.com/kanavtwt/pdf0" 
                 target="_blank" 
