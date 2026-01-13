@@ -73,6 +73,13 @@ const tools = [
     category: "Security",
     isNew: true
   },
+  {
+    name: "HTML to PDF",
+    description: "Convert HTML files or code to PDF documents",
+    href: "/tools/html-to-pdf",
+    gradient: "from-violet-500 to-purple-500",
+    category: "Convert"
+  },
 ];
 
 const categories = ["All", "Organize", "Edit", "Convert", "Optimize", "Security"];
